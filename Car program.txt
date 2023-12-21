@@ -1,0 +1,26 @@
+class Car:
+    def __init__(self, brand, mileage, color, is_automatic, is_manual):
+        self.brand = brand
+        self.mileage = mileage
+        self.color = color
+        self.is_automatic = is_automatic
+        self.is_manual = is_manual
+
+        
+        if is_automatic and is_manual:
+            print("A car is not both automatic and manual.")
+
+    def display_features(self):
+        print(f"Brand: {self.brand}")
+        print(f"Mileage: {self.mileage} miles per gallon")
+        print(f"Color: {self.color}")
+        print(f"Automatic Transmission: {self.is_automatic}")
+        print(f"Manual Transmission: {self.is_manual}")
+        print()
+car1 = Car("Toyota", 25, "Blue", True, True)
+car2 = Car("Honda", 30, "Red", False, True)
+car3 = Car("Ford", 22, "Black", True, False)
+
+car1.display_features()
+car2.display_features()
+car3.display_features()
