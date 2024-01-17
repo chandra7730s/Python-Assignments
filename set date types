@@ -1,0 +1,20 @@
+#set data add types
+x=set()
+x.add(20)
+x.add(1)
+x.add(True)
+x.add(19)
+x.add(False)
+x.add('3')
+print(x)
+
+#update data types
+x=set()
+x.update('CAZZY')
+print(x)
+
+#remove method
+x={11,12,True,False,'q'}
+r=x.remove(True)
+print(f'R:{R}')
+
