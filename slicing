@@ -1,0 +1,16 @@
+# take a string write down 20 different cases on slicing
+a="THIS IS IS RAINY SEASION"
+print(a[0:9]) #THIS IS I
+print(a[0:23]) #THIS IS A RAONY SEASION
+print(a[-1:-14:-1]) #NOISASE YAIAR
+print(a[::14])#IN
+print(a[::1])#THIS IS A RAINY SEASION
+print(a[2:9:2])#I SI
+print(a[-1:-9:-2])#NIAS
+print(a[12:-13:-1])#A
+print(a[-7:-5])#SE
+print(a[6:-2])#IS RAINY SEASI
+print(a[-1:6:-1])#NOISE YNIAR SI
+print(a[1:8][::1])#hIS YEAR
+print(a[0:8])#THIS IS
+print(len(a))
